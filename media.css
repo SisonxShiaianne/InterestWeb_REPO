@@ -1,4 +1,6 @@
-
+@media (max-width: 1024px){
+    
+}
 @media (max-width: 991px){
 
   html{
@@ -10,7 +12,7 @@
   }
 
   section{
-    padding: 3rem;
+    padding: 3rem 2rem;
   }
 
 }
@@ -43,6 +45,20 @@
 
   .home .content h3{
     font-size: 5rem;
+  }
+
+  .home .row .content{
+    text-align: center;
+  }
+
+  .home .row .content h3{
+    font-size: 3.5rem;
+  }
+  .home__scroll{
+    display: block;
+  }
+  .home__scroll-button{
+    margin-left: 3rem;
   }
 
 }

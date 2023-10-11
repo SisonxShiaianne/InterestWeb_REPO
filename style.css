@@ -112,10 +112,20 @@ section{
   padding-right: .5rem;
 }
 
+
 .header .navbar a{
   font-size: 2rem;
   color: var(--black);
   margin-left: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  
+  transition: background .25s, box-shadow .15s;
+  &:hover {
+    color: #4A4860;
+    background: white;
+    box-shadow: 0px 4px 0px 0px #BB8EAC;
+  }
 }
 
 .header .navbar a:hover{
@@ -142,6 +152,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
+
 }
 
 .home .row .content{
@@ -151,7 +162,7 @@ section{
 .home .row .books-slider{
     flex: 1 1 42rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 10rem;
 }
 
 .home .row .books-slider a img{
@@ -202,4 +213,62 @@ section{
   
 .home__scroll-arrow{
     font-size: 1.25rem;
+}
+
+.portfolio__container{
+  overflow: initial;
+}
+
+.portfolio__content{
+  padding: 0 1.5rem;
+}
+
+.portfolio__img{
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.portfolio__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__description{
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__button:hover .button__icon{
+  transform: translateX(.25rem);
+}
+/*==================== PROJECT IN MIND ====================*/
+/*.swiper-button-prev::after,
+.swiper-button-next::after{
+  content: '';
+}*/
+
+.swiper-portfolio-icon{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev{
+  left: -.5rem;
+}
+.swiper-button-next{
+  right: -.5rem;
+}
+
+.swiper-container > .swiper-pagination-bullets{
+  bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--first-color);
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet{
+  outline: none;
 }

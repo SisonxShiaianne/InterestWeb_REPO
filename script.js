@@ -9,30 +9,18 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 
-var swiper = new Swiper(".books-slider", {
-    loop:true,
-    centeredSlides:true,
-    autoplay: {
-        delay:9500,
-        disableOnInteraction:false,
-    },
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 3,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-      1440: {
-        slidesPerView: 3,
-      },
-      2560: {
-        slidesPerView: 3,
-      },
-    },
+//SWIPER
+let swiper = new Swiper('.portfolio__container', {
+  cssMode: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true,
 });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/

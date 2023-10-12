@@ -1,68 +1,84 @@
-@media (max-width: 991px){
+@media (max-width: 991px) {
 
-  html{
+  html {
     font-size: 55%;
   }
 
-  .header{
+  .header {
     padding: 2rem 3rem;
   }
 
-  section{
+  section {
     padding: 3rem 2rem;
   }
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-  #menu{
+  #menu {
     display: inline-block;
   }
 
-  .header .navbar{
+  .header .navbar {
     position: absolute;
-    top: 110%; right: -110%;
+    top: 110%;
+    right: -110%;
     width: 30rem;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     background: #fff;
   }
 
-  .header .navbar.active{
+  .header .navbar.active {
     right: 2rem;
     transition: .4s linear;
     background-color: rgba(0, 0, 0, 0.89);
   }
 
-  .header .navbar a{
+  .header .navbar a {
     font-size: 2rem;
     margin: 2rem 2.5rem;
     display: block;
   }
 
-  .home .content h3{
+  .home .content h3 {
     font-size: 5rem;
   }
 
-  .home .row .content{
+  .home .row .content {
     text-align: center;
   }
 
-  .home .row .content h3{
+  .home .row .content h3 {
     font-size: 3.5rem;
   }
-  .content{
+
+  .content {
     margin-bottom: -22%;
   }
 
+  /* ABOUT */
+  .about .row {
+    flex-direction: column;
+  }
+
+  .about .image-item {
+    text-align: center;
+    margin: 5px;
+  }
+
+  .about .image-name {
+    font-size: 1.4rem;
+  }
 }
 
-@media (max-width: 425px){
-  html{
+@media (max-width: 425px) {
+  html {
     font-size: 50%;
   }
-  .content{
+
+  .content {
     margin-top: -10%;
     margin-bottom: -45%;
   }

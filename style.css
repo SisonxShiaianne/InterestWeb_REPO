@@ -1,50 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&display=swap');
 
-:root{
-  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+:root {
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-*{
+* {
   font-family: 'Playfair Display', sans-serif;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  outline: none; border: none;
+  outline: none;
+  border: none;
   text-decoration: none;
   list-style: none;
   transition: all .2s linear;
 }
 
-html{
+html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   width: .6rem;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
   background: #fff;
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
   background: var(--primary-color);
 }
 
-section{
+section {
   padding: 3rem 7%;
 }
 
-.heading{
+.heading {
   font-size: 4rem;
   margin: 4rem 0;
   color: var(--primary-color);
   text-align: center;
 }
 
-.btn{
+.btn {
   margin-top: 1rem;
   background: rgba(196, 193, 193, 0.315);
   color: #fff;
@@ -59,7 +61,7 @@ section{
 }
 
 .btn::before,
-.btn::after{
+.btn::after {
   content: '';
   position: absolute;
   top: 0;
@@ -70,24 +72,26 @@ section{
   transition: .3s linear;
 }
 
-.btn::before{
+.btn::before {
   left: 0;
 }
 
-.btn::after{
+.btn::after {
   right: 0;
 }
 
 .btn:hover::before,
-.btn:hover::after{
+.btn:hover::after {
   width: 100%;
 }
 
 /*==================== HEADER ====================*/
 
-.header{
+.header {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -97,32 +101,33 @@ section{
   box-shadow: var(--box-shadow);
 }
 
-.header .logo{
+.header .logo {
   font-size: 2.5rem;
   font-weight: bolder;
   color: white;
 }
 
-.header .logo i{
+.header .logo i {
   color: white;
   padding-right: .5rem;
 }
 
-.header .navbar a{
+.header .navbar a {
   font-size: 2rem;
   color: white;
   margin-left: 2rem;
   text-transform: uppercase;
   letter-spacing: 5px;
-  
+
   transition: background .25s, box-shadow .15s;
+
   &:hover {
     color: rgb(233, 226, 226);
     box-shadow: 0px 4px 0px 0px black;
   }
 }
 
-#menu{
+#menu {
   font-size: 2.5rem;
   cursor: pointer;
   color: white;
@@ -131,105 +136,190 @@ section{
 
 /*==================== HOME SECTION ====================*/
 
-.home{
-    background-color: #252525;
-    background-size: cover;
-    background-position: center;
+.home {
+  background-color: #252525;
+  background-size: cover;
+  background-position: center;
 }
 
-.home .row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-
-}
-
-.home .row .content{
-    flex: 1 1 42rem;
-}
- 
-.home .row .books-slider{
-    flex: 1 1 42rem;
-    text-align: center;
-    margin-top: 10rem;
-}
-
-.home .row .books-slider a img{
-    height: 25rem;
-}
-
-.home .row .books-slider a:hover img{
-    transform: scale(.9);
-}
-
-.home .row .content h3{
-    color: whitesmoke;
-    font-size: 4.5rem;
+.home .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 
 }
 
-.home .row .content{
-    font-size: 1.4rem;
-    line-height: 2;
-    padding: 10rem 0;
-    color: whitesmoke;
+.home .row .content {
+  flex: 1 1 42rem;
 }
 
-.portfolio__container{
+.home .row .books-slider {
+  flex: 1 1 42rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.home .row .books-slider a img {
+  height: 25rem;
+}
+
+.home .row .books-slider a:hover img {
+  transform: scale(.9);
+}
+
+.home .row .content h3 {
+  color: whitesmoke;
+  font-size: 4.5rem;
+
+}
+
+.home .row .content {
+  font-size: 1.4rem;
+  line-height: 2;
+  padding: 10rem 0;
+  color: whitesmoke;
+}
+
+.portfolio__container {
   overflow: initial;
 }
 
-.portfolio__content{
+.portfolio__content {
   padding: 0 1.5rem;
 }
 
-.portfolio__img{
+.portfolio__img {
   width: 265px;
   border-radius: .5rem;
   justify-self: center;
 }
 
-.portfolio__title{
+.portfolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
 
-.portfolio__description{
+.portfolio__description {
   margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover .button__icon{
+.portfolio__button:hover .button__icon {
   transform: translateX(.25rem);
 }
+
 /*==================== SWIPER CSS IN HOME ====================*/
 /*.swiper-button-prev::after,
 .swiper-button-next::after{
   content: '';
 }*/
 
-.swiper-portfolio-icon{
+.swiper-portfolio-icon {
   font-size: 2rem;
   color: var(--first-color);
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
   left: -.5rem;
 }
-.swiper-button-next{
+
+.swiper-button-next {
   right: -.5rem;
 }
 
-.swiper-container > .swiper-pagination-bullets{
+.swiper-container>.swiper-pagination-bullets {
   bottom: -2.5rem;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background-color: var(--first-color);
 }
 
 .swiper-button-next,
 .swiper-button-prev,
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   outline: none;
+}
+
+
+/*==================== ABOUT SECTION ====================*/
+.about {
+  background-color: #252525;
+  color: whitesmoke;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  padding: 1rem 0;
+}
+
+.about .row .content p {
+  font-size: 1.4rem;
+  color: var(--black);
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.about ul li {
+  font-size: 1.7rem;
+  color: var(--main-color);
+  padding-top: 1.5rem;
+}
+
+.about ul li i {
+  font-size: 2rem;
+  color: var(--primary-color);
+  padding-right: 1rem;
+}
+
+.about .row .content .btn {
+  margin: 3rem 0;
+}
+
+.about .row .image {
+  flex: 1 1 30rem;
+}
+
+.about .row .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about .image-container {
+  display: flex;
+  align-items: center;
+}
+
+.about .image-item {
+  text-align: center;
+  margin: 0 10px;
+  position: relative;
+}
+
+.about .image-item img {
+  transform: 0.3s;
+}
+
+.about .image-name {
+  font-size: 1.5rem;
+  color: var(--black);
+  margin-top: 1rem;
+}
+
+.image-item:hover img {
+  transform: scale(1.1);
 }

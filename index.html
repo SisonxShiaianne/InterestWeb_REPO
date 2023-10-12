@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <!--==================== SWIPER JS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    
+    <header class="header">
+        <a href="#" class="logo"> <i class="uil uil-airplay"></i> Movies </a>
+
+        <!--==================== NAV BAR ====================-->
+        
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#movie">Movie</a>
+            <a href="#casts">Casts</a>                
+            <a href="#book">Book</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        
+        <div id="menu" class="fas fa-bars"></div>
+    
+    </header>
+
+    <!--==================== HOME SECTION ====================-->
+
+    <section class="home" id="home">
+        <div class="row">
+
+            <div class="content">
+                <br><br>
+                <h3>The Divergent Series</h3>
+                <p>The Divergent Series is a trilogy of science fiction action films adapted from Veronica Roth's novels. These movies were produced by Summit Entertainment and Lionsgate Films. It takes place in a dystopian society and includes Divergent, Insurgent, and Allegiant.</p>
+                <br>
+                <a href="#about" class="btn">Show More</a>
+                <br><br><br>
+
+
+            </div>
+            
+
+            <div class="swiper books-slider">
+                <div class="portfolio__container container swiper-container">
+					<div class="swiper-wrapper">
+						<!--DIVERGENT-->
+						<div class="portfolio__content grid swiper-slide">
+							<img src="assets/img1.jpg" alt="" class="portfolio__img">
+						</div>
+
+						<!--INSURGENT-->
+						<div class="portfolio__content grid swiper-slide">
+							<img src="assets/img2.jpg" alt="" class="portfolio__img">
+						</div>
+
+						<!--ALLEGIANT-->
+						<div class="portfolio__content grid swiper-slide">
+							<img src="assets/img3.jpg" alt="" class="portfolio__img">
+						</div>
+					</div>
+
+					<!-- Add Arrows -->
+                    <br><br><br>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+            </div>
+
+            
+        </div>
+
+    </section>
+
+</body>
+
+<!--==================== JAVA SCRIPT SRC ====================-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</html>

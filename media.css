@@ -32,6 +32,7 @@
   .header .navbar.active{
     right: 2rem;
     transition: .4s linear;
+    background-color: rgba(0, 0, 0, 0.89);
   }
 
   .header .navbar a{
@@ -51,17 +52,18 @@
   .home .row .content h3{
     font-size: 3.5rem;
   }
-  .home__scroll{
-    display: block;
-  }
-  .home__scroll-button{
-    margin-left: 3rem;
+  .content{
+    margin-bottom: -22%;
   }
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 425px){
   html{
     font-size: 50%;
+  }
+  .content{
+    margin-top: -10%;
+    margin-bottom: -45%;
   }
 }

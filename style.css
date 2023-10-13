@@ -247,14 +247,12 @@ section {
   background-color: #252525;
   color: whitesmoke;
   width: 100%;
-  min-height: 100vh;
 }
 
 .about .row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 3rem;
 }
 
 .about .row .content {
@@ -263,27 +261,15 @@ section {
 
 .about .row .content h3 {
   font-size: 2.5rem;
-  color: var(--primary-color);
+  color: whitesmoke;
   padding: 1rem 0;
 }
 
 .about .row .content p {
-  font-size: 1.4rem;
-  color: var(--black);
+  font-size: 2rem;
+  color: whitesmoke;
   padding: 1rem 0;
   line-height: 2;
-}
-
-.about ul li {
-  font-size: 1.7rem;
-  color: var(--main-color);
-  padding-top: 1.5rem;
-}
-
-.about ul li i {
-  font-size: 2rem;
-  color: var(--primary-color);
-  padding-right: 1rem;
 }
 
 .about .row .content .btn {
@@ -316,10 +302,81 @@ section {
 
 .about .image-name {
   font-size: 1.5rem;
-  color: var(--black);
+  color: whitesmoke;
   margin-top: 1rem;
 }
 
 .image-item:hover img {
   transform: scale(1.1);
+}
+
+/*==================== MOVIE SECTION ====================*/
+.movie {
+  background: #252525;
+}
+
+.movie .heading {
+  color: whitesmoke;
+}
+
+.movie .movie-box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.movie .movie-box-container .movie-box {
+  box-shadow: var(--box-shadow);
+}
+
+.movie .movie-box-container .movie-box .image {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.movie .movie-box-container .movie-box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movie .movie-box-container .movie-box:hover .image img {
+  transform: scale(0.9);
+}
+
+.movie .movie-box-container .movie-box .movie-content {
+  padding: 3rem 3.5rem;
+}
+
+.movie .movie-box-container .movie-box .movie-content h3 {
+  font-size: 2.2rem;
+  color: whitesmoke;
+  cursor: default;
+}
+
+.movie .movie-box-container .movie-box .movie-content .icons {
+  padding-top: 1.7rem;
+  color: whitesmoke;
+}
+
+.movie .movie-box-container .movie-box .movie-content .icons a {
+  font-size: 1.4rem;
+  color: whitesmoke;
+}
+
+.movie .movie-box-container .movie-box .movie-content .icons a:hover {
+  color: #8f8282;
+}
+
+.movie .movie-box-container .movie-box .movie-content .icons a i {
+  color: var(--primary-color);
+  padding-right: .5rem;
+}
+
+.movie .movie-box-container .movie-box .movie-content p {
+  font-size: 1.4rem;
+  color: whitesmoke;
+  line-height: 2;
+  padding: 1rem 0;
 }

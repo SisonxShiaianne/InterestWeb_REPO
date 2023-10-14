@@ -7,9 +7,9 @@ It includes information about the Divergent Series, its movies, main cast, and r
 ## Contents
 
 1. [Introduction](#introduction)
-2. [Content] (#content)
+[Content] (#content)
 3. [Features](#features)
-4. [Developers and Roles] (#developers)
+[Developers and Roles] (#developers)
 5. [License](#license)
 
 ---

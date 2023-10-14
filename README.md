@@ -1,5 +1,4 @@
 # InterestWeb_REPO
-
 Movie Website
 
 It includes information about the Divergent Series, its movies, main cast, and related books. The website is designed using HTML, CSS, and JavaScript.
@@ -7,9 +6,9 @@ It includes information about the Divergent Series, its movies, main cast, and r
 ## Contents
 
 1. [Introduction](#introduction)
-2. [Navigation] (#navigation)
+2. Navigation Bar
 3. [Features](#features)
-4. [Developers] (#developers)
+4. Developers and Roles
 5. [License](#license)
 
 ---
@@ -20,7 +19,7 @@ This Movie Website provides information about the Divergent Series, a trilogy of
 
 ---
 
-## Navigation
+## Navigation Bar
 - *Home*
 - *About*
 - *Movie*
@@ -39,7 +38,7 @@ This Movie Website provides information about the Divergent Series, a trilogy of
 - *Book Information*: Details about the books in the Divergent Series, including the title, author, and a short description, are provided.
 
 ---
-## Developers
+## Developers and Roles 
 - *Sison, Shiaianne*: Created the Navigation Bar and Home section.
 - *Arquiza, Grace*: Created the About and Movie section.
 - *Camasis, Mariecris*: Created the Casts and Books section.

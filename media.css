@@ -102,17 +102,17 @@
 /*BOOKS*/
 @media (max-width: 992px) {
   .el-wrapperbook {
-    width: 100%; /* Make it full-width on smaller screens */
-    max-width: none; /* Remove max-width for full responsiveness */
-    margin: 10px auto; /* Add some margin for spacing between cards */
+    width: 100%; 
+    max-width: none;
+    margin: 10px auto; 
   }
 
   .el-wrapperbook .box-upbook .img {
-    padding: 10px 0; /* Adjust padding for smaller screens */
+    padding: 10px 0; 
   }
 
   .info-inner .p-name {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 16px; 
   }
 
   .info-inner .p-company {
@@ -121,27 +121,38 @@
 
   .page-wrapperbook,
   .page-innerbook {
-    display: block; /* Remove table layout on smaller screens */
-    height: auto; /* Adjust height for smaller screens */
+    display: block; 
+    height: auto; 
   }
 
   .el-wrapperbook .box-upbook,
   .el-wrapperbook .box-down,
   .el-wrapperbook .img {
-    height: auto; /* Adjust height for smaller screens */
-    width: 100%; /* Make images and boxes full width */
+    height: auto; 
+    width: 100%;
   }
 
   .el-wrapperbook .box-up {
-    text-align: center; /* Center the content */
+    text-align: center; 
   }
 
   .el-wrapperbook .img {
-    padding: 0; /* Reset padding for images */
+    padding: 0; 
   }
 
   .info-inner {
-    position: relative; /* Reset position for info-inner */
-    bottom: auto; /* Reset position for info-inner */
+    position: relative; 
+    bottom: auto; 
   }
+}
+
+.box-upbook {
+  height: 400px; 
+  overflow: hidden; 
+}
+
+.box-upbook img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
 }

@@ -823,9 +823,48 @@ i:hover {
   resize: none;
   z-index: 1; /* Added z-index */
 }
+/* end */
+/* footer */
 
+.footer{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  height: 13.5rem;
+}
 
+.footer .share{
+  padding: 1rem ;
+  margin-top: -3rem;
+}
+
+.footer .share a{
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color:#f6f6fa;
+  border: .1rem solid #fffcfc;
+  margin: 1rem;
+  border-radius: 25%;
+}
+
+.footer .share a:hover{
+  color: #080808;
+  background: #323233;
+}
+
+.footer .credit{
+  font-size: 1.5rem;
+  color: rgba(196, 193, 193, 0.315);
+  padding: 1.5rem;
+  font-weight:bolder;
+  margin-top: -02%;
+}
+
+.footer .credit span{
+  color: white;
+  font-weight: lighter;
+}
 
 /* end */
-
 

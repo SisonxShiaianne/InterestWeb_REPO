@@ -84,3 +84,17 @@
     margin-bottom: -45%;
   }
 }
+
+/*CASTS*/
+@media screen and (min-width: 992px) {
+  .wrappercast {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .containercast {
+    height: 400px;
+    width: 300px;
+    padding: 15px;
+  }
+}

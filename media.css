@@ -101,13 +101,13 @@
 
 /*BOOKS*/
 @media (max-width: 992px) {
-  .el-wrapper {
+  .el-wrapperbook {
     width: 100%; /* Make it full-width on smaller screens */
     max-width: none; /* Remove max-width for full responsiveness */
     margin: 10px auto; /* Add some margin for spacing between cards */
   }
 
-  .el-wrapper .box-up .img {
+  .el-wrapperbook .box-upbook .img {
     padding: 10px 0; /* Adjust padding for smaller screens */
   }
 
@@ -119,24 +119,24 @@
     font-size: 10px; /* Adjust font size for smaller screens */
   }
 
-  .page-wrapper,
-  .page-inner {
+  .page-wrapperbook,
+  .page-innerbook {
     display: block; /* Remove table layout on smaller screens */
     height: auto; /* Adjust height for smaller screens */
   }
 
-  .el-wrapper .box-up,
-  .el-wrapper .box-down,
-  .el-wrapper .img {
+  .el-wrapperbook .box-upbook,
+  .el-wrapperbook .box-down,
+  .el-wrapperbook .img {
     height: auto; /* Adjust height for smaller screens */
     width: 100%; /* Make images and boxes full width */
   }
 
-  .el-wrapper .box-up {
+  .el-wrapperbook .box-up {
     text-align: center; /* Center the content */
   }
 
-  .el-wrapper .img {
+  .el-wrapperbook .img {
     padding: 0; /* Reset padding for images */
   }
 

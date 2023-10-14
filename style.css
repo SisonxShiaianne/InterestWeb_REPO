@@ -485,18 +485,6 @@ i:hover {
 }
 
 /*==================== BOOKS SECTION ====================*/
-.books{
-  background-color: #252525;
-}
-.heading{
-  background-color: #252525;
-}
-.hero-section{
-    background-color: #252525;
-}
-.hero{
-  background-color: #252525;
-}
 .hero-section {
   display: flex;
   justify-content: center; /* Center content horizontally */
@@ -549,28 +537,28 @@ i:hover {
   -ms-flex-align: center;
   align-items: center;
 }
-.page-wrapper {
+.page-wrapperbook {
   height: 100%;
   display: table;
 }
 
-.page-wrapper .page-inner {
+.page-wrapperbook .page-inner {
   display: table-cell;
   vertical-align: middle;
 }
 
-.el-wrapper {
+.el-wrapperbook {
   width: 360px;
   padding: 15px;
   margin: 15px auto;
   background-color: #252525;
 }
 
-.el-wrapper:hover .h-bg {
+.el-wrapperbook:hover .h-bg {
   left: 0px;
 }
 
-.el-wrapper:hover .price {
+.el-wrapperbook:hover .price {
   left: 10px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -579,11 +567,11 @@ i:hover {
   color: #ffffff;
 }
 
-.el-wrapper:hover .add-to-cart {
+.el-wrapperbook:hover .add-to-cart {
   left: 50%;
 }
 
-.el-wrapper:hover .img {
+.el-wrapperbook:hover .img {
   -o-filter: blur(7px);
   -ms-filter: blur(7px);
   filter: blur(7px);
@@ -591,11 +579,11 @@ i:hover {
   opacity: 0.4;
 }
 
-.el-wrapper:hover .info-inner {
+.el-wrapperbook:hover .info-inner {
   bottom: 155px;
 }
 
-.el-wrapper:hover .a-size {
+.el-wrapperbook:hover .a-size {
   -webkit-transition-delay: 300ms;
   -o-transition-delay: 300ms;
   transition-delay: 300ms;
@@ -603,14 +591,14 @@ i:hover {
   opacity: 1;
 }
 
-.el-wrapper .box-down {
+.el-wrapperbook .box-downbook {
   width: 100%;
   height: 60px;
   position: relative;
   overflow: hidden;
 }
 
-.el-wrapper .box-up {
+.el-wrapperbook .box-upbook {
   width: 100%;
   height: 300px;
   position: relative;
@@ -618,8 +606,7 @@ i:hover {
   text-align: center;
 }
 
-.el-wrapper .img {
-  
+.el-wrapperbook .img {
   padding: 20px 0;
   -webkit-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
   -moz-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
@@ -654,7 +641,7 @@ i:hover {
 .h-bg .h-bg-inner {
   width: 50%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #464646;
 }
 
 .info-inner {

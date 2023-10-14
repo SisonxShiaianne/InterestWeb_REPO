@@ -84,3 +84,75 @@
     margin-bottom: -45%;
   }
 }
+
+/*CASTS*/
+@media screen and (min-width: 992px) {
+  .wrappercast {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .containercast {
+    height: 400px;
+    width: 300px;
+    padding: 15px;
+  }
+}
+
+/*BOOKS*/
+@media (max-width: 992px) {
+  .el-wrapperbook {
+    width: 100%; 
+    max-width: none;
+    margin: 10px auto; 
+  }
+
+  .el-wrapperbook .box-upbook .img {
+    padding: 10px 0; 
+  }
+
+  .info-inner .p-name {
+    font-size: 16px; 
+  }
+
+  .info-inner .p-company {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+
+  .page-wrapperbook,
+  .page-innerbook {
+    display: block; 
+    height: auto; 
+  }
+
+  .el-wrapperbook .box-upbook,
+  .el-wrapperbook .box-down,
+  .el-wrapperbook .img {
+    height: auto; 
+    width: 100%;
+  }
+
+  .el-wrapperbook .box-up {
+    text-align: center; 
+  }
+
+  .el-wrapperbook .img {
+    padding: 0; 
+  }
+
+  .info-inner {
+    position: relative; 
+    bottom: auto; 
+  }
+}
+
+.box-upbook {
+  height: 400px; 
+  overflow: hidden; 
+}
+
+.box-upbook img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+}

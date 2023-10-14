@@ -98,3 +98,50 @@
     padding: 15px;
   }
 }
+
+/*BOOKS*/
+@media (max-width: 992px) {
+  .el-wrapper {
+    width: 100%; /* Make it full-width on smaller screens */
+    max-width: none; /* Remove max-width for full responsiveness */
+    margin: 10px auto; /* Add some margin for spacing between cards */
+  }
+
+  .el-wrapper .box-up .img {
+    padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+
+  .info-inner .p-name {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .info-inner .p-company {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+
+  .page-wrapper,
+  .page-inner {
+    display: block; /* Remove table layout on smaller screens */
+    height: auto; /* Adjust height for smaller screens */
+  }
+
+  .el-wrapper .box-up,
+  .el-wrapper .box-down,
+  .el-wrapper .img {
+    height: auto; /* Adjust height for smaller screens */
+    width: 100%; /* Make images and boxes full width */
+  }
+
+  .el-wrapper .box-up {
+    text-align: center; /* Center the content */
+  }
+
+  .el-wrapper .img {
+    padding: 0; /* Reset padding for images */
+  }
+
+  .info-inner {
+    position: relative; /* Reset position for info-inner */
+    bottom: auto; /* Reset position for info-inner */
+  }
+}

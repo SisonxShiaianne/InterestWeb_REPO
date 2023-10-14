@@ -7,9 +7,9 @@ It includes information about the Divergent Series, its movies, main cast, and r
 ## Contents
 
 1. [Introduction](#introduction)
-[Content] (#content)
+2. [Navigation] (#navigation)
 3. [Features](#features)
-[Developers and Roles] (#developers)
+4. [Developers] (#developers)
 5. [License](#license)
 
 ---
@@ -20,7 +20,7 @@ This Movie Website provides information about the Divergent Series, a trilogy of
 
 ---
 
-## Contents
+## Navigation
 - *Home*
 - *About*
 - *Movie*
@@ -39,7 +39,7 @@ This Movie Website provides information about the Divergent Series, a trilogy of
 - *Book Information*: Details about the books in the Divergent Series, including the title, author, and a short description, are provided.
 
 ---
-## Developers and Roles 
+## Developers
 - *Sison, Shiaianne*: Created the Navigation Bar and Home section.
 - *Arquiza, Grace*: Created the About and Movie section.
 - *Camasis, Mariecris*: Created the Casts and Books section.

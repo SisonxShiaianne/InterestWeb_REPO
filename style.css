@@ -181,6 +181,10 @@ section {
   color: whitesmoke;
 }
 
+.home .row .content p {
+  font-size: 2rem;
+}
+
 .portfolio__container {
   overflow: initial;
 }
@@ -304,6 +308,7 @@ section {
   font-size: 1.5rem;
   color: whitesmoke;
   margin-top: 1rem;
+  text-decoration: underline;
 }
 
 .image-item:hover img {
@@ -375,7 +380,7 @@ section {
 }
 
 .movie .movie-box-container .movie-box .movie-content p {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: whitesmoke;
   line-height: 2;
   padding: 1rem 0;

@@ -156,3 +156,23 @@
   height: 100%; 
   object-fit: contain; 
 }
+/*CONTACTS*/
+@media (max-width: 769px){
+  .contact p{
+      padding-left:5%;
+      margin-top: -4rem;
+      font-size: 1.5rem;
+      text-align: center;
+      background-color: rgba(196, 193, 193, 0.315);
+      border: solid 0.3rem black;
+      border-radius: 1rem;
+    }  
+    .contact .heading{
+      margin-right: 0%;
+      padding-left: 0%;
+    }
+    .contact .row form{
+      padding: 5rem;
+      margin-left: 0;
+    }
+  }

@@ -823,38 +823,7 @@ i:hover {
   resize: none;
   z-index: 1; /* Added z-index */
 }
-@media (max-width: 991px){
 
-  html{
-    font-size: 55%;
-  }
-
-  .header{
-    padding: 2rem 3rem;
-  }
-
-  section{
-    padding: 3rem;
-  }
-}
-@media (max-width: 769px){
-  .contact p{
-      padding-left:5%;
-      margin-top: -4rem;
-      font-size: 1.5rem;
-      text-align: center;
-      background-color: #00000081;
-      border-radius: 1rem;
-    }  
-    .contact .heading{
-      margin-right: 0%;
-      padding-left: 0%;
-    }
-    .contact .row form{
-      padding: 5rem;
-      margin-left: 0;
-    }
-  }
 
 
 /* end */

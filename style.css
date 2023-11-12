@@ -16,7 +16,7 @@
   transition: all .2s linear;
 }
 body {
-    background-color: #252525;
+    background-color: whitesmoke;
 }
 
 
@@ -46,13 +46,13 @@ section {
 .heading {
   font-size: 4rem;
   margin: 4rem 0;
-  color: var(--primary-color);
+  color: black;
   text-align: center;
 }
 
 .btn {
   margin-top: 1rem;
-  background: rgba(196, 193, 193, 0.315);
+  background: #252525;
   color: #fff;
   display: inline-block;
   border-radius: 5rem;
@@ -101,7 +101,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 9%;
-  background: rgba(196, 193, 193, 0.315);
+  background: rgb(85, 81, 81);
   box-shadow: var(--box-shadow);
 }
 
@@ -127,7 +127,7 @@ section {
 
   &:hover {
     color: rgb(233, 226, 226);
-    box-shadow: 0px 4px 0px 0px black;
+    box-shadow: 0px 4px 0px 0px whitesmoke;
   }
 }
 
@@ -138,10 +138,11 @@ section {
   display: none;
 }
 
+
 /*==================== HOME SECTION ====================*/
 
 .home {
-  background-color: #252525;
+  background-color: whitesmoke;
   background-size: cover;
   background-position: center;
 }
@@ -173,7 +174,7 @@ section {
 }
 
 .home .row .content h3 {
-  color: whitesmoke;
+  color: black;
   font-size: 4.5rem;
 
 }
@@ -182,7 +183,7 @@ section {
   font-size: 1.4rem;
   line-height: 2;
   padding: 10rem 0;
-  color: whitesmoke;
+  color: black;
 }
 
 .home .row .content p {
@@ -216,11 +217,6 @@ section {
   transform: translateX(.25rem);
 }
 
-/*==================== SWIPER CSS IN HOME ====================*/
-/*.swiper-button-prev::after,
-.swiper-button-next::after{
-  content: '';
-}*/
 
 .swiper-portfolio-icon {
   font-size: 2rem;
@@ -252,8 +248,8 @@ section {
 
 /*==================== ABOUT SECTION ====================*/
 .about {
-  background-color: #252525;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: black;
   width: 100%;
 }
 
@@ -269,13 +265,13 @@ section {
 
 .about .row .content h3 {
   font-size: 2.5rem;
-  color: whitesmoke;
+  color: black;
   padding: 1rem 0;
 }
 
 .about .row .content p {
   font-size: 2rem;
-  color: whitesmoke;
+  color: black;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -310,7 +306,7 @@ section {
 
 .about .image-name {
   font-size: 1.5rem;
-  color: whitesmoke;
+  color: black;
   margin-top: 1rem;
   text-decoration: underline;
 }
@@ -321,11 +317,11 @@ section {
 
 /*==================== MOVIE SECTION ====================*/
 .movie {
-  background: #252525;
+  background: whitesmoke;
 }
 
 .movie .heading {
-  color: whitesmoke;
+  color: black;
 }
 
 .movie .movie-box-container {
@@ -360,18 +356,18 @@ section {
 
 .movie .movie-box-container .movie-box .movie-content h3 {
   font-size: 2.2rem;
-  color: whitesmoke;
+  color: black;
   cursor: default;
 }
 
 .movie .movie-box-container .movie-box .movie-content .icons {
   padding-top: 1.7rem;
-  color: whitesmoke;
+  color: black;
 }
 
 .movie .movie-box-container .movie-box .movie-content .icons a {
   font-size: 1.4rem;
-  color: whitesmoke;
+  color: black;
 }
 
 /* .movie .movie-box-container .movie-box .movie-content .icons a:hover {
@@ -379,23 +375,23 @@ section {
 } */
 
 .movie .movie-box-container .movie-box .movie-content .icons a i {
-  color: var(--primary-color);
+  color: black;
   padding-right: .5rem;
 }
 
 .movie .movie-box-container .movie-box .movie-content p {
   font-size: 1.8rem;
-  color: whitesmoke;
+  color: black;
   line-height: 2;
   padding: 1rem 0;
 }
 
 /*==================== CASTS SECTION ====================*/
 .casts{
-  background-color: #252525;
+  background-color: whitesmoke;
 }
 .heading{
-  color: #fff;
+  color: black;
 }
 .heading3,
 .heading5 {
@@ -494,7 +490,7 @@ i:hover {
   padding: 0 15px;
   margin: 0 auto;
   text-align: center; /* Center text within .hero-section */
-  background-color: #252525;
+  background-color: whitesmoke;
 }
 
 .hero-section .hero {
@@ -785,7 +781,7 @@ i:hover {
   padding-left:46%;
   margin-top: -4rem;
   font-size: 1.5rem;
-  color: white;
+  color: black;
 }
 .contact {
   background: url('assets/Cbackground.png');
@@ -812,11 +808,18 @@ i:hover {
   color: #f7f1f1;
   text-transform: none;
   border: 0.1rem solid rgba(0, 0, 0, 0.3);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #b3abab83;
   border-radius: 0.5rem;
   z-index: 1; /* Added z-index */
 }
 
+.contact .row form .inputBox input::placeholder{
+  color: #252525;
+}
+
+.contact .row form .inputBox textarea::placeholder{
+  color: #252525;
+}
 .contact .row form textarea {
   width: 100%;
   height: 15rem;
@@ -825,7 +828,7 @@ i:hover {
 }
 .contact .row form .inputBox input:hover,
 .contact .row form textarea:hover {
-  background-color: rgba(0, 0, 0, 1); 
+  background-color: rgba(0, 0, 0, 0.562); 
   transition: background-color 0.3s ease; 
 }
 
@@ -844,11 +847,12 @@ i:hover {
 }
 
 
+
 /* end */
 /* footer */
 
 .footer{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(85, 81, 81);
   text-align: center;
   height: 13.5rem;
 }
@@ -870,13 +874,13 @@ i:hover {
 }
 
 .footer .share a:hover{
-  color: #080808;
+  color: white;
   background: #323233;
 }
 
 .footer .credit{
   font-size: 1.5rem;
-  color: rgba(196, 193, 193, 0.315);
+  color: #252525;
   padding: 1.5rem;
   font-weight:bolder;
   margin-top: -02%;

@@ -1,3 +1,4 @@
+/* HOME */
 @media (max-width: 991px) {
 
   html {
@@ -33,7 +34,7 @@
   .header .navbar.active {
     right: 2rem;
     transition: .4s linear;
-    background-color: rgba(0, 0, 0, 0.89);
+    background-color: rgb(85, 81, 81);
   }
 
   .header .navbar a {
@@ -83,6 +84,9 @@
     margin-top: -10%;
     margin-bottom: -45%;
   }
+}
+@media (max-width: 2560PX) {
+
 }
 
 /*CASTS*/
@@ -164,7 +168,7 @@
       margin-top: -4rem;
       font-size: 1.5rem;
       text-align: center;
-      background-color: rgba(196, 193, 193, 0.315);
+      background-color: rgba(196, 193, 193, 0.719);
       border: solid 0.rem black;
       border-radius: 1rem;
     }  

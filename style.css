@@ -404,7 +404,7 @@ section {
 }
 .heading3 {
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 17px;
 }
 .heading5 {
   font-size: 13px;
@@ -503,7 +503,7 @@ i:hover {
 }
 
 .hero p {
-  font-size: 1.28rem; /* Adjust font size for mobile view */
+  font-size: 1.31rem; /* Adjust font size for mobile view */
   margin-bottom: 10px; /* Adjust margin as needed */
   color: #ffffff;
   text-transform: none;

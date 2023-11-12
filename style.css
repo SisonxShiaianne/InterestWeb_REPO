@@ -19,6 +19,7 @@ body {
     background-color: #252525;
 }
 
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -373,9 +374,9 @@ section {
   color: whitesmoke;
 }
 
-.movie .movie-box-container .movie-box .movie-content .icons a:hover {
+/* .movie .movie-box-container .movie-box .movie-content .icons a:hover {
   color: #8f8282;
-}
+} */
 
 .movie .movie-box-container .movie-box .movie-content .icons a i {
   color: var(--primary-color);
@@ -769,3 +770,101 @@ i:hover {
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+/*==================== CONTACTS SECTION ====================*/
+/* contact */
+.contact {
+  position: relative;
+}
+.contact .heading{
+  padding-left: 18%;
+  font-size:5.8rem ;
+  margin-top: -2%;
+}
+.contact p{
+  padding-left:46%;
+  margin-top: -4rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.contact {
+  background: url('assets/Cbackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .row form{
+  padding: 5rem;
+  margin-left: 41%;
+}
+.contact .row form .inputBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact .row form .inputBox input,
+.contact .row form textarea {
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  width: 49%;
+  color: #f7f1f1;
+  text-transform: none;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  z-index: 1; /* Added z-index */
+}
+
+.contact .row form textarea {
+  width: 100%;
+  height: 15rem;
+  resize: none;
+  z-index: 1; /* Added z-index */
+}
+/* end */
+/* footer */
+
+.footer{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  height: 13.5rem;
+}
+
+.footer .share{
+  padding: 1rem ;
+  margin-top: -3rem;
+}
+
+.footer .share a{
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color:#f6f6fa;
+  border: .1rem solid #fffcfc;
+  margin: 1rem;
+  border-radius: 25%;
+}
+
+.footer .share a:hover{
+  color: #080808;
+  background: #323233;
+}
+
+.footer .credit{
+  font-size: 1.5rem;
+  color: rgba(196, 193, 193, 0.315);
+  padding: 1.5rem;
+  font-weight:bolder;
+  margin-top: -02%;
+}
+
+.footer .credit span{
+  color: white;
+  font-weight: lighter;
+}
+
+/* end */
+

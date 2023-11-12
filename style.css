@@ -374,9 +374,9 @@ section {
   color: whitesmoke;
 }
 
-.movie .movie-box-container .movie-box .movie-content .icons a:hover {
+/* .movie .movie-box-container .movie-box .movie-content .icons a:hover {
   color: #8f8282;
-}
+} */
 
 .movie .movie-box-container .movie-box .movie-content .icons a i {
   color: var(--primary-color);

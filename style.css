@@ -823,6 +823,27 @@ i:hover {
   resize: none;
   z-index: 1; /* Added z-index */
 }
+.contact .row form .inputBox input:hover,
+.contact .row form textarea:hover {
+  background-color: rgba(0, 0, 0, 1); 
+  transition: background-color 0.3s ease; 
+}
+
+.contact .row form .inputBox input:focus,
+.contact .row form textarea:focus {
+  outline: none;
+  border: 0.1rem solid #0645AD; 
+}
+.contact .row form input[type="submit"].btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+.contact .row form input[type="submit"].btn:hover {
+  transform: scale(1.1);
+}
+
+
 /* end */
 /* footer */
 
